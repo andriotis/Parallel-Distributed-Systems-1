@@ -39,7 +39,7 @@ e.g if I wanted to evaluate mycielskian13.mtx the command would be <code>./seq .
 
 2. Run pthreads providing the filepath of the .mtx file and the number of threads you want <code>./pthreads \<filepath\> \<number of threads\></code>
 
-e.g if I wanted to evaluate dblp-2010.mtx the command would be <code>./pthreads ./matrices/dblp-2010.mtx 4</code>
+e.g if I wanted to evaluate dblp-2010.mtx with 4 threads, the command would be <code>./pthreads ./matrices/dblp-2010.mtx 4</code>
 
 ## Cilk Implementation
 
@@ -47,7 +47,7 @@ e.g if I wanted to evaluate dblp-2010.mtx the command would be <code>./pthreads 
 
 2. Run cilk providing the filepath of the .mtx file and the number of threads you want <code>./cilk \<filepath\> CILK_NWORKERS=\<number of threads\></code>
 
-e.g if I wanted to evaluate com-Youtube.mtx the command would be <code>./cilk ./matrices/com-Youtube.mtx CILK_NWORKERS=4</code>
+e.g if I wanted to evaluate com-Youtube.mtx with 4 workers, the command would be <code>./cilk ./matrices/com-Youtube.mtx CILK_NWORKERS=4</code>
 
 ## OpenMP Implementation
 
@@ -55,7 +55,7 @@ e.g if I wanted to evaluate com-Youtube.mtx the command would be <code>./cilk ./
 
 2. Run omp providing the filepath of the .mtx file and the number of threads you want <code>./omp \<filepath\> \<number of threads\></code>
 
-e.g if I wanted to evaluate belgium_osm.mtx the command would be <code>./omp ./matrices/belgium_osm.mtx 4</code>
+e.g if I wanted to evaluate belgium_osm.mtx with 4 processes, the command would be <code>./omp ./matrices/belgium_osm.mtx 4</code>
 
 ## Thanks for the evaluation! If you encountered any problem, please send me an email or a direct message.
 
