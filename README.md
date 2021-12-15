@@ -35,33 +35,49 @@ You need start the container and execute the following commands inside it.
 
 1. Create the executables `make sequential`
 
-2. Run seq providing the filepath of the .mtx file `./seq \<filepath\>`
+2. Run seq providing the filepath of the .mtx file
 
-e.g if I wanted to evaluate **mycielskian13** the command would be `./seq ./matrices/mycielskian13.mtx`
+`./seq \<filepath\>`
+
+e.g if I wanted to evaluate **mycielskian13** the command would be
+
+`./seq ./matrices/mycielskian13.mtx`
 
 ## PThreads Implementation
 
 1. Create the executables using `make pthreads`
 
-2. Run pthreads providing the filepath of the .mtx file and the number of threads you want `./pthreads \<filepath\> \<number of threads\>`
+2. Run pthreads providing the filepath of the .mtx file and the number of threads you want
 
-e.g if I wanted to evaluate **dblp-2010** with **4** threads, the command would be `./pthreads ./matrices/dblp-2010.mtx 4`
+`./pthreads \<filepath\> \<number of threads\>`
+
+e.g if I wanted to evaluate **dblp-2010** with **4** threads, the command would be
+
+`./pthreads ./matrices/dblp-2010.mtx 4`
 
 ## Cilk Implementation
 
 1. Create the executables using `make cilk`
 
-2. Run cilk providing the filepath of the .mtx file and the number of threads you want `./cilk \<filepath\> CILK_NWORKERS=\<number of threads\>`
+2. Run cilk providing the filepath of the .mtx file and the number of threads you want
 
-e.g if I wanted to evaluate **com-Youtube** with **4** workers, the command would be `./cilk ./matrices/com-Youtube.mtx CILK_NWORKERS=4`
+`./cilk \<filepath\> CILK_NWORKERS=\<number of threads\>`
+
+e.g if I wanted to evaluate **com-Youtube** with **4** workers, the command would be
+
+`./cilk ./matrices/com-Youtube.mtx CILK_NWORKERS=4`
 
 ## OpenMP Implementation
 
 1. Create the executables using `make openmp`
 
-2. Run omp providing the filepath of the .mtx file and the number of threads you want `./omp \<filepath\> \<number of threads\>`
+2. Run omp providing the filepath of the .mtx file and the number of threads you want
 
-e.g if I wanted to evaluate **belgium_osm** with **4** processes, the command would be `./omp ./matrices/belgium_osm.mtx 4`
+`./omp \<filepath\> \<number of threads\>`
+
+e.g if I wanted to evaluate **belgium_osm** with **4** processes, the command would be
+
+`./omp ./matrices/belgium_osm.mtx 4`
 
 ## Thanks for the evaluation! If you encountered any problem, please send me a direct message or an email.
 
