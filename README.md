@@ -15,7 +15,13 @@ After you have successfully downloaded and installed the container, you have to 
 
 Either clone it or download the [zip](https://github.com/andriotis/pds-assignment-1/archive/refs/heads/main.zip) <strong>inside a folder the container can see</strong>.
 
-Now you are ready to evaluate!
+Now you are ready to evaluate! The number of triangles for each matrix are:
+
+* Number of triangles for each graph
+* belgium_osm: 2.420
+* com-Youtube: 3.056.386
+* mycielskian13 : 0
+* dblp-2010 : 1.676.652
 
 ## Sequential Implementation
 
