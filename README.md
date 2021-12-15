@@ -18,10 +18,10 @@ Either clone it or download the [zip](https://github.com/andriotis/pds-assignmen
 Now you are ready to evaluate! The number of triangles for each matrix are:
 
 * Number of triangles for each graph
-* belgium_osm: 2.420
-* com-Youtube: 3.056.386
-* mycielskian13 : 0
-* dblp-2010 : 1.676.652
+* belgium_osm: <code>2.420<\code>
+* com-Youtube: <code>3.056.386<\code>
+* mycielskian13 : <code>0<\code>
+* dblp-2010 : <code>1.676.652<\code>
 
 ## Sequential Implementation
 
